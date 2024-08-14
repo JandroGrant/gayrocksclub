@@ -1,7 +1,7 @@
 [
     {
         "week": "Week 29, 2024:",
-        "album_art": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/%27Time_N_Place%27_by_Kero_Kero_Bonito.jpg/220px-%27Time_N_Place%27_by_Kero_Kero_Bonito.jpg",
+        "album_art": "covers/kkb_-_time_n_place.jpg",
         "artist": "Kero Kero Bonito",
         "title": "Time 'n' Place",
         "runtime": "32:53",
@@ -24,7 +24,7 @@
     },
     {
         "week": "Week 33, 2024",
-        "album_art": "https://i.scdn.co/image/ab67616d0000b2738ae5be0e6e3b5e86ae896ddb",
+        "album_art": "covers/tomi_-_late_bloomer.jpg",
         "artist": "TOMI",
         "title": "Late Bloomer",
         "runtime": "41:18",
