@@ -10,7 +10,7 @@ fetch('./weeks.json')
         }
 
         block.insertAdjacentHTML(
-            "beforeend",
+            "afterbegin",
             `
                 <div class="album">
                     <h3> <a href="">${album.week}</a> </h3>
