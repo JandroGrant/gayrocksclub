@@ -3,9 +3,14 @@
     --train_duration: 34s;
 }
 
+@font-face {
+    font-family: comic-sans;
+    src: url(Comic\ Sans\ MS.ttf);
+}
+
 body{
     image-rendering: crisp-edges;
-    font-family: sans-serif;
+    font-family: comic-sans, sans-serif;
     background-color: black;
     max-width: 1536px;
     min-width: 450px;
