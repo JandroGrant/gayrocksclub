@@ -174,5 +174,25 @@
       ],
       "summary": "",
       "suggestor": "Chloe"
+   },
+   {
+     "week": "Week 40, 2024",
+     "album_art": "covers/bulldog_eyes_-_asleep.jpg",
+     "artist": "Bulldog Eyes",
+     "title": "Asleep",
+     "runtime": "14:10",
+     "release_date": "October 4, 2015",
+     "tracklist": [
+       "What About God and What About Your Friends?",
+       "Gross",
+       "Sleeping",
+       "Have I Always Looked This Way?",
+       "Forming",
+       "Grief",
+       "Blister",
+       "Blister II"
+     ],
+     "summary": "",
+     "suggestor": "Zach"
    }
 ]
