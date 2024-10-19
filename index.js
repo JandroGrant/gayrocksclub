@@ -9,7 +9,7 @@ class MyHeader extends HTMLElement {
                 <div class="navbar">
                     <ul>
                         <li>
-                            <a href="index.html">
+                            <a href="index">
                                 Home
                             </a>
                         </li>
@@ -19,7 +19,7 @@ class MyHeader extends HTMLElement {
                             </a>
                         </li>
                         <li>
-                            <a href="album-club.html">
+                            <a href="album-club">
                                 Album Club
                             </a>
                         </li>
