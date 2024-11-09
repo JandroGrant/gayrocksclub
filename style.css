@@ -1,34 +1,81 @@
-:root {
-    background-color: black;
+body {
+    background: url("assets/80x80_nebula.png");
+
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    padding: 0;
+
+    color: white;
 }
 
-/* HEADER */
-
-@keyframes slideDownFromTop {
-    0% {
-        transform: translateY(-100%);
-    }
-    100% {
-        transform: translateY(0);
-    }
+.logo {
+    width: 100%;
 }
 
-.slide_down {
-    animation: 0.5s cubic-bezier(0.76, 0, 0.24, 1) 0s 1 slideDownFromTop;
+div.vertical-line{
+    width: 1px;
+    background-color: white;
+    height: 100%;
+    float: left;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+
+    padding: 12px;
+    margin: 0;
+
+    background-color: black;
 }
 
 header {
-    background-color: black;
-    margin: 4px;
-    width: 100%;
-    transition: 0.5s;
+    display: grid;
+    grid-template-areas: "logo nav";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100%;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+
+    height: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    line-height: 80px;
+    padding: 16px;
+    margin: auto;
+
+    display: block;
+    color: white;
+    text-align: center;
+
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav li a:hover {
+    background-color: white;
+    color: black;
 }
 
 header img {
-    height: 8vh;
-    display: block;
-    margin: auto;
+    height: 100%;
 }
